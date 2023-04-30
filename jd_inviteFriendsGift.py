@@ -257,7 +257,7 @@ async def main():
     except:
         invitePin = invitePin_
     activityUrl = f'https://prodev.m.jd.com/mall/active/{activityId}/index.html?code={authorCode}&invitePin={invitePin}'  # 活动链接
-    needinviteNum = []  # 需要助力次数
+    needinviteNum = [999]  # 需要助力次数
     needdel = []
     need = []
     if inveteck:
